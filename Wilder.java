@@ -1,3 +1,5 @@
+package com.company;
+
 // Create a Wilder class
 public class Wilder {
     // Adds the attributes String firstname and boolean present
@@ -30,6 +32,6 @@ public class Wilder {
 
     //Add a whoAmI() method that returns the text "My name is firstname and I am present" or "My name is firstname and I am not present", depending on the state of the attributes firstname and present
     public String whoAmI(){
-        return "My name is " + this.firstName + " and i'm " + (this.getPresent() ? "present." : "not present.");
+        return "My name is " + this.firstName + " and I am " + (this.getPresent() ? "present." : "not present.");
     }
 }
