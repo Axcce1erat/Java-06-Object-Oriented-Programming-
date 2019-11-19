@@ -1,5 +1,3 @@
-package com.company;
-
 // Create a Wilder class
 public class Wilder {
     // Adds the attributes String firstname and boolean present
